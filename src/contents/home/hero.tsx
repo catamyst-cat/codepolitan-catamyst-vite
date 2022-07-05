@@ -17,6 +17,7 @@ export function HomeHero() {
             Menguasai Frontend Web Development
           </h2>
         </header>
+
         <div className="space-y-3 text-lg">
           <p>
             Ayo kita belajar web development dengan langsung dimentori oleh
