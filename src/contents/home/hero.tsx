@@ -3,14 +3,19 @@ export function HomeHero() {
     <section className="flex gap-10 flex-wrap justify-between items-center">
       <div className="max-w-lg space-y-6 py-10">
         <header className="space-y-2">
-          <h1 className="sm:text-xl font-bold uppercase text-teal-600">
-            Belajar Dengan Catamyst
+          <h1 className="sm:text-xl font-bold uppercase text-teal-500 flex items-center gap-2">
+            <span>Belajar Dengan </span>
+            <img
+              className="max-h-[30px]"
+              src="/images/catamyst.png"
+              alt="Catamyst"
+            />
           </h1>
           <h2 className="text-3xl sm:text-5xl font-bold">
             Menguasai Frontend Web Development
           </h2>
         </header>
-        <div className="space-y-2">
+        <div className="space-y-3 text-lg">
           <p>
             Ayo kita belajar web development dengan langsung dimentori oleh
             ahlinya!
