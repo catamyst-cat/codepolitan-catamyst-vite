@@ -4,7 +4,7 @@ interface LayoutProps extends HTMLElementProps {}
 
 export function Layout({ children }: LayoutProps) {
   return (
-    <div className="px-2 sm:px-5 flex justify-center">
+    <div className="px-2 sm:px-5 flex justify-center border-t-8 border-teal-500">
       <div className="max-w-5xl w-full">{children}</div>
     </div>
   );
