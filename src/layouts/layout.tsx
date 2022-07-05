@@ -1,6 +1,6 @@
-interface LayoutProps {
-  children: React.ReactNode;
-}
+import { HTMLElementProps } from "../types";
+
+interface LayoutProps extends HTMLElementProps {}
 
 export function Layout({ children }: LayoutProps) {
   return (

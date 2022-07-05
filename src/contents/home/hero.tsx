@@ -1,3 +1,5 @@
+import { Button } from "../../components";
+
 export function HomeHero() {
   return (
     <section className="flex gap-10 flex-wrap justify-between items-center">
@@ -29,6 +31,10 @@ export function HomeHero() {
             mendapatkan pekerjaan, melakukan freelancing, memulai tech business,
             bahkan kerja online secara remote.
           </p>
+        </div>
+
+        <div>
+          <Button>Selengkapnya</Button>
         </div>
       </div>
 
