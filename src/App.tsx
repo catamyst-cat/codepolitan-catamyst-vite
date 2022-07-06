@@ -1,4 +1,11 @@
-import { HomeBenefits, HomeHero, HomeWhy } from "./contents";
+import {
+  HomeBenefits,
+  HomeHero,
+  HomeLearningFlow,
+  HomeMaterials,
+  HomeMentor,
+  HomeWhy,
+} from "./contents";
 import { Layout } from "./layouts";
 
 export default function App() {
@@ -7,6 +14,9 @@ export default function App() {
       <HomeHero />
       <HomeWhy />
       <HomeBenefits />
+      <HomeMaterials />
+      <HomeMentor />
+      <HomeLearningFlow />
     </Layout>
   );
 }

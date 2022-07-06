@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  p a {
+    @apply font-bold;
+  }
+}
+
 @layer components {
   .h1 {
     @apply font-bold text-3xl;
@@ -21,5 +27,9 @@
 
   .card {
     @apply border border-teal-300 rounded-lg p-5;
+  }
+
+  .button {
+    @apply bg-teal-600 px-5 py-3 text-white rounded-md;
   }
 }
