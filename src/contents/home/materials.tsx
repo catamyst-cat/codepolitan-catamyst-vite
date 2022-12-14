@@ -3,7 +3,7 @@ import { dataMaterials } from "../../data";
 
 export function HomeMaterials() {
   return (
-    <section className="py-20 space-y-10">
+    <section className="space-y-10 py-20">
       <header>
         <h1 className="h1">Materi Pembelajaran</h1>
         <Divider />
@@ -19,7 +19,7 @@ export function HomeMaterials() {
         </p>
       </header>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
         {dataMaterials.map((material) => {
           return (
             <div key={material.text} className="flex items-center">
@@ -29,7 +29,7 @@ export function HomeMaterials() {
         })}
       </div>
 
-      <div>
+      <div className="flex justify-center">
         <ButtonAnchor href="https://a.catamyst.com/frontend-id">
           Lihat Silabus Lengkap
         </ButtonAnchor>

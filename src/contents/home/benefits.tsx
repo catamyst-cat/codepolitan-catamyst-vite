@@ -4,7 +4,7 @@ import { dataBenefits } from "../../data";
 export function HomeBenefits() {
   return (
     <section className="space-y-5">
-      <header className="space-y-5 flex flex-col md:items-center">
+      <header className="flex flex-col space-y-5 md:items-center">
         <h1 className="h1">Manfaat Program</h1>
         <Divider />
         <p>
@@ -13,7 +13,7 @@ export function HomeBenefits() {
         </p>
       </header>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         {dataBenefits.map((benefit) => {
           return (
             <div key={benefit.id} className="card space-y-2">
@@ -29,8 +29,10 @@ export function HomeBenefits() {
         })}
       </div>
 
-      <div>
-        <ButtonAnchor>Daftar Sekarang</ButtonAnchor>
+      <div className="flex justify-center">
+        <ButtonAnchor>
+          <span>Daftar Sekarang</span>
+        </ButtonAnchor>
       </div>
     </section>
   );

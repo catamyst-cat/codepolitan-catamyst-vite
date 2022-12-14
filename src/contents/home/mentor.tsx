@@ -4,16 +4,16 @@ import { dataMentor } from "../../data";
 export function HomeMentor() {
   return (
     <section>
-      <div className="flex flex-wrap lg:flex-nowrap gap-10">
+      <div className="flex flex-wrap gap-10 lg:flex-nowrap">
         <div>
           <img
-            className="rounded-full max-h-[300px]"
+            className="max-h-[300px] rounded-full"
             src="https://program.codepolitan.com/wp-content/uploads/sites/2/2022/06/mhaidarhanif-circle.jpg"
             alt="M Haidar hanif"
           />
         </div>
 
-        <div className="space-y-5 max-w-2xl">
+        <div className="max-w-2xl space-y-5">
           <header>
             <h1 className="h1">Halo! Saya M Haidar Hanif</h1>
             <Divider />
@@ -63,9 +63,16 @@ export function HomeMentor() {
             </p>
           </div>
 
-          <div className="flex flex-wrap gap-5 text-teal-500">
+          <div className="flex flex-wrap gap-5">
             {dataMentor.externalAnchors.map((anchor) => {
-              return <Anchor href={anchor.url}>{anchor.name}</Anchor>;
+              return (
+                <Anchor
+                  className="font-bold text-brand-700 hover:text-brand-600"
+                  href={anchor.url}
+                >
+                  <span>{anchor.name}</span>
+                </Anchor>
+              );
             })}
           </div>
         </div>

@@ -2,10 +2,10 @@ import { HTMLAnchorElementProps } from "../types";
 
 interface AnchorProps extends HTMLAnchorElementProps {}
 
-export function Anchor({ href, children }: AnchorProps) {
+export function Anchor(props: AnchorProps) {
   return (
-    <a href={href} target="_blank" rel="noreferrer">
-      {children}
+    <a target="_blank" rel="noreferrer" {...props}>
+      {props.children}
     </a>
   );
 }
