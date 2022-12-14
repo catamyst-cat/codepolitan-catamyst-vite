@@ -1,11 +1,15 @@
-import { Button } from "../../components";
+import { Button, ButtonAnchor } from "../../components";
+
+const urlToWhatsApp =
+  "https://wa.me/08999488990?text=Halo%20saya%20mau%20bertanya%20terkait%20Bootcamp%20Frontend%20Web%20Development";
+const urlToTelegram = "https://t.me/codepolitan_catamyst";
 
 export function HomeHero() {
   return (
-    <section className="flex gap-10 flex-wrap justify-between items-center">
-      <div className="max-w-lg space-y-6 py-10">
+    <section className="flex gap-5 sm:gap-10 flex-wrap justify-between items-center">
+      <div className="max-w-lg space-y-6 py-12 sm:py-20">
         <header className="space-y-2">
-          <h1 className="sm:text-xl font-bold uppercase text-teal-500 flex items-center gap-2">
+          <h1 className="text-lg sm:text-xl font-bold text-brand-600 flex items-center gap-2">
             <span>Belajar Dengan </span>
             <img
               className="max-h-[30px]"
@@ -13,8 +17,8 @@ export function HomeHero() {
               alt="Catamyst"
             />
           </h1>
-          <h2 className="text-3xl sm:text-5xl font-bold">
-            Menguasai Frontend Web Development
+          <h2 className="text-4xl sm:text-5xl font-bold">
+            Bootcamp Frontend Web Development
           </h2>
         </header>
 
@@ -34,8 +38,9 @@ export function HomeHero() {
           </p>
         </div>
 
-        <div>
-          <Button>Selengkapnya</Button>
+        <div className="flex flex-wrap items-center gap-2">
+          <ButtonAnchor href={urlToWhatsApp}>Konsultasi WhatsApp</ButtonAnchor>
+          <ButtonAnchor href={urlToTelegram}>Konsultasi Telegram</ButtonAnchor>
         </div>
       </div>
 

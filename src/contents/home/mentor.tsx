@@ -26,19 +26,40 @@ export function HomeMentor() {
               jangka panjang.
             </p>
             <p>
-              Posisi saya sekarang adalah Founder dan Mentor di{" "}
-              <Anchor href="https://catamyst.com">Catamyst</Anchor>, Content
-              Creator di{" "}
-              <Anchor href="https://codepolitan.com/">CodePolitan</Anchor>,
-              Developer Relations Lead di{" "}
-              <Anchor href="https://kontenbase.com">Kontenbase</Anchor>, Product
-              Engineer di <Anchor href="https://poinswap.com">Poinswap</Anchor>,
+              Posisi saya sekarang adalah
+              <span>
+                {" "}
+                Founder dan Mentor di{" "}
+                <Anchor href="https://catamyst.com">Catamyst</Anchor>,
+              </span>
+              <span>
+                {" "}
+                Content Creator di{" "}
+                <Anchor href="https://codepolitan.com">CodePolitan</Anchor>,
+              </span>
+              <span>
+                {" "}
+                Curriculum Contributor di{" "}
+                <Anchor href="https://revou.co/software-engineering">
+                  RevoU
+                </Anchor>
+                ,
+              </span>
+              <span>
+                {" "}
+                Developer Relations Lead di{" "}
+                <Anchor href="https://kontenbase.com">Kontenbase</Anchor>,
+              </span>{" "}
+              <span>
+                Product Engineer di{" "}
+                <Anchor href="https://poinswap.com">Poinswap</Anchor>,
+              </span>{" "}
               serta konsultan web di berbagai proyek. Sebelumnya saya adalah
               Co-Founder dan Lead Mentor di{" "}
               <Anchor href="https://impactbyte.com">Impact Byte</Anchor>, Senior
               Instructor di{" "}
               <Anchor href="https://hacktiv8.com/">Hacktiv8</Anchor>, dan
-              berbagai peran di perusahaan teknologi lainnya.
+              berbagai peran di perusahaan teknologi.
             </p>
           </div>
 
