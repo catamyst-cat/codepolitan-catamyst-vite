@@ -30,6 +30,7 @@
   }
 
   .button {
-    @apply bg-teal-600 px-5 py-3 text-white rounded-md;
+    @apply inline-block cursor-pointer bg-teal-600 px-5 py-3 text-white rounded-md;
+    @apply hover:bg-teal-500;
   }
 }

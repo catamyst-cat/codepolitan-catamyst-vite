@@ -4,7 +4,7 @@ export function HomeWhy() {
   return (
     <section className="py-20">
       <header className="flex flex-col lg:items-center">
-        <h1 className="h1">Mengapa belajar dengan Catamyst?</h1>
+        <h1 className="h1">Mengapa belajar dengan CodePolitan × Catamyst?</h1>
         <Divider />
       </header>
 
@@ -18,8 +18,12 @@ export function HomeWhy() {
           <div className="space-y-3 text-lg">
             <p>
               Tim dari Catamyst telah berpengalaman dalam menyelenggarakan
-              pembelajaran, kelas, dan bootcamp terkait frontend web development
-              selama bertahun-tahun.
+              pembelajaran, kelas, dan bootcamp terkait web development selama
+              bertahun-tahun.
+            </p>
+            <p>
+              Sekarang sedang terafiliasi dengan CodePolitan dan RevoU.
+              Sebelumnya pernah terafiliasi dengan Impact Byte dan Hacktiv8.
             </p>
             <p>
               Telah mengajar secara publik dan prifat kepada lebih dari ratusan

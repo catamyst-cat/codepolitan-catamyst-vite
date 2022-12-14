@@ -1,4 +1,4 @@
-import { Button, Divider } from "../../components";
+import { ButtonAnchor, Divider } from "../../components";
 import { dataBenefits } from "../../data";
 
 export function HomeBenefits() {
@@ -30,7 +30,7 @@ export function HomeBenefits() {
       </div>
 
       <div>
-        <Button>Daftar Sekarang</Button>
+        <ButtonAnchor>Daftar Sekarang</ButtonAnchor>
       </div>
     </section>
   );
