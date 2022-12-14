@@ -4,8 +4,9 @@ import { dataBenefits } from "../../data";
 export function HomeBenefits() {
   return (
     <section className="space-y-5">
-      <header className="space-y-2">
-        <h2 className="h2">Manfaat Program</h2>
+      <header className="space-y-5 flex flex-col md:items-center">
+        <h1 className="h1">Manfaat Program</h1>
+        <Divider />
         <p>
           Selain Itu kamu juga akan mendapatkan banyak manfaat setelah lulus
           dari program ini seperti:

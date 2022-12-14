@@ -3,13 +3,13 @@ import { dataLearningFlow } from "../../data";
 
 export function HomeLearningFlow() {
   return (
-    <section className="py-20">
+    <section className="py-20 flex flex-col items-center">
       <header className="flex flex-col lg:items-center">
         <h1 className="h1">Alur Belajar</h1>
         <Divider />
       </header>
 
-      <div className="space-y-5">
+      <div className="space-y-5 max-w-2xl">
         {dataLearningFlow.map((flow) => {
           return (
             <div

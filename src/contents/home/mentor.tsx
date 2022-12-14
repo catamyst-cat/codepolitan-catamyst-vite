@@ -7,7 +7,7 @@ export function HomeMentor() {
       <div className="flex flex-wrap lg:flex-nowrap gap-10">
         <div>
           <img
-            className="rounded-full max-h-96"
+            className="rounded-full max-h-[300px]"
             src="https://program.codepolitan.com/wp-content/uploads/sites/2/2022/06/mhaidarhanif-circle.jpg"
             alt="M Haidar hanif"
           />

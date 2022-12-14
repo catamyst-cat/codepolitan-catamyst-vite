@@ -4,6 +4,8 @@ import {
   HomeLearningFlow,
   HomeMaterials,
   HomeMentor,
+  HomeProjects,
+  HomeTestimonials,
   HomeWhy,
 } from "./contents";
 import { Layout } from "./layouts";
@@ -17,6 +19,8 @@ export default function App() {
       <HomeMaterials />
       <HomeMentor />
       <HomeLearningFlow />
+      <HomeProjects />
+      <HomeTestimonials />
     </Layout>
   );
 }
